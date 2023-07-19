@@ -357,6 +357,14 @@ section {
         padding: 11px 12px;
         
     }
+
+    .social-icons {
+        color: #fff;
+        font-size:2.3em;
+        padding-right: 45px;
+        margin: 2px;
+        transition: 0.7s ease;
+    }
 }
 
 @media (max-width:428px){
@@ -367,5 +375,13 @@ section {
     width: 100%;
     height: 15px 19px;
     
+    }
+
+    .social-icons {
+        color: #fff;
+        font-size:2.4em;
+        padding-right: 45px;
+        margin: 2px;
+        transition: 0.7s ease;
     }
 }
