@@ -5,9 +5,8 @@
     margin: 0;
     padding: 0;     
     box-sizing: border-box;
-    scroll-behavior: smooth;        
+    scroll-behavior: smooth;
 }
-
 
 header {
     background-color: #3a6cf4;
@@ -17,7 +16,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;                      
+    padding: 10px 200px;              
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 1);
 }
 
 .logo {
@@ -30,18 +30,15 @@ header {
 
 
 .navigation a {
-    /* color: #3a6cf4; */
     color: #fefefe;
     text-decoration: none;
     font-size: 1.1em;
-    font-weight: 500; 
+    font-weight: 500;
     padding-left: 30px;
 }
 
 .navigation a:hover {
     color: #601cfc;
-    /* color: #ffffff; */
-
 }
 
 section {
@@ -173,7 +170,7 @@ section {
 
 .projects {
     background-color: #000000;
-    background: url(images/binary-g9b57e1552_1280.jpg) no-repeat;
+    background: url(images/programming-g4514d1f27_1280.png) no-repeat;
     width:100%;
     min-height: 100vh;
     align-items: center;
@@ -214,8 +211,9 @@ section {
 }
 
 .project-category {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #000000;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
 }
 
 .projects-title {
@@ -224,9 +222,14 @@ section {
     text-transform: uppercase;
     font-weight: 800;
     margin-top: 10px;
-    /* color: #211e1e; */
     color: #e50000;
     font-size: 1.1em;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+
+}
+
+.available {
+    color: #601cfc;
 }
 
 .more-details {
@@ -234,11 +237,10 @@ section {
     color: #601cfc;
 }
 
-.cards content{
-    background: url(images/programming-g4514d1f27_1280.png) no-repeat;
+._cards{
+    background: url(images/binary-g9b57e1552_1280.jpg) no-repeat;
     width:100%;
-    min-height: 100vh;
-        
+    min-height: 100vh;        
     align-items: center;
     background-size: cover;
     background-position: center;
@@ -250,11 +252,15 @@ section {
 
 .content .info h3 {
     color: #000000;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+    font-size: 1.4em;
 }
 
 .content .info p {
     font-size: 1.1em;
     color: #000000;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+
 }
 .content .Minfo p {      /*More Setting*/
     font-size: 1.1em;
@@ -265,7 +271,6 @@ section {
     color: #000000;
     text-align: center;
     min-height: 6vh;
-
 }
 .content .title{
     display: flex;
@@ -346,6 +351,11 @@ section {
         width:393px;
         padding: 13px 20px;
     }
+
+    .video {
+        width: 250px;
+        height: 140px;
+    }
 }
 
 @media (max-width: 360px){
@@ -384,4 +394,4 @@ section {
         margin: 2px;
         transition: 0.7s ease;
     }
-}
+} 
