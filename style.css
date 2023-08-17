@@ -351,11 +351,6 @@ section {
         width:393px;
         padding: 13px 20px;
     }
-
-    .video {
-        width: 250px;
-        height: 140px;
-    }
 }
 
 @media (max-width: 360px){
@@ -381,6 +376,7 @@ section {
     body{
         font-size: 11px;
     }
+    
     header{
     width: 100%;
     height: 15px 19px;
