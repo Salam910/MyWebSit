@@ -11,14 +11,26 @@
     <link rel="stylesheet" href="style.css" />
     <title>Salam</title>
     <link rel="WebSite icon" type="png" href="images/hacker-g883584509_1280.png">
+
+        <!-- link website for (Boxicons) -->
+        <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+      />
   </head>
   <body>
-    <header>
+    <header class="header">
       <a class="logo"  href="#salam" >Salam</a>
+
+      <input type="checkbox" id="check">
+      <label for="check" class="icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-exit' id="close-icon"></i>
+      </label>
       <nav class="navigation">
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#services" style="--i:0;">Services</a>
+        <a href="#projects" style="--i:1;">Projects</a>
+        <a href="#contact" style="--i:2;">Contact</a>
       </nav>
     </header>
 
@@ -226,7 +238,7 @@
         <i class="fa-solid fa-copyright"></i
           ></a>
         <span>Salam Hasan</span></p>
-      <div class="social-icons-f">
+      <div class="social-icons">
         <a
           href="https://www.facebook.com/salam.hasan.7564?mibextid=ZbWKwL"
           target="_blank"
